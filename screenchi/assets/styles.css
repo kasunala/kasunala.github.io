@@ -33,8 +33,9 @@ a:hover{text-decoration:underline}
 /* Header */
 .site-header{position:sticky;top:0;z-index:10;background:rgba(244,245,251,.82);backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--border)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
-.wordmark{font-weight:900;font-size:22px;color:var(--midnight);letter-spacing:-.02em}
+.wordmark{display:inline-flex;align-items:center;gap:9px;font-weight:900;font-size:22px;color:var(--midnight);letter-spacing:-.02em}
 .wordmark:hover{text-decoration:none}
+.brand-icon{width:32px;height:32px;display:block}
 .header-nav a{color:var(--ink-soft);font-weight:700;font-size:15px;margin-left:22px}
 
 /* Hero */
@@ -42,6 +43,7 @@ a:hover{text-decoration:underline}
 .pill{display:inline-block;background:rgba(58,167,154,.14);color:var(--teal);font-weight:800;font-size:13.5px;padding:8px 16px;border-radius:999px;border:1px solid rgba(58,167,154,.22)}
 .hero h1{font-size:clamp(38px,7vw,64px);line-height:1.05;font-weight:900;letter-spacing:-.03em;margin:22px auto 0;max-width:12ch;color:var(--midnight)}
 .lede{font-size:clamp(17px,2.3vw,21px);color:var(--ink-soft);max-width:620px;margin:20px auto 0;font-weight:600}
+.hero-icon{width:104px;height:104px;display:block;margin:26px auto 0;filter:drop-shadow(0 14px 30px rgba(28,29,71,.28))}
 
 /* Gallery */
 .gallery{padding:36px 0 12px}
@@ -61,7 +63,8 @@ a:hover{text-decoration:underline}
 /* Footer */
 .site-footer{background:var(--midnight);color:#c9cbee;margin-top:56px}
 .footer-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding:32px 24px}
-.footer-brand{font-weight:900;font-size:18px;color:#fff}
+.footer-brand{display:inline-flex;align-items:center;gap:9px;font-weight:900;font-size:18px;color:#fff}
+.brand-icon-sm{width:28px;height:28px;display:block}
 .footer-nav a{color:#c9cbee;font-weight:700;font-size:15px;margin-right:20px}
 .footer-nav a:hover{color:#fff}
 .footer-copy{color:#8a8cc0;font-size:14px}
